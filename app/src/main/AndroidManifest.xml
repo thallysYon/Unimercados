@@ -12,7 +12,7 @@
         android:theme="@style/Theme.Unimercados"
         tools:targetApi="31">
         <activity
-            android:name=".UsuarioFinalizaCadastroActivity"
+            android:name="usuario.UsuarioFinalizaCadastroActivity"
             android:exported="false" />
         <activity
             android:name=".activity.autenticacao.CriarContaActivity"

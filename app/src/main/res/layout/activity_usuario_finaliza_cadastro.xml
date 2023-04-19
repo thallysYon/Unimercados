@@ -55,18 +55,14 @@
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
-            <EditText
-                android:id="@+id/edt_telefone"
+            <com.santalu.maskara.widget.MaskEditText
+                android:id="@+id/input"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
-                android:background="@drawable/bg_edit"
-                android:drawableLeft="@drawable/ic_telefone"
-                android:drawablePadding="16dp"
-                android:hint="Digite seu telefone"
-                android:drawableTint="@color/cor_principal"
-                android:inputType="textPassword"
-                android:padding="16dp" />
+                android:inputType="number"
+                app:mask="+90 (___) ___ __ __"
+                app:maskCharacter="_"
+                app:maskStyle="completable" />
 
             <android.widget.Button
 
