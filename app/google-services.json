@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "673249287282",
+    "project_id": "unimercadosv2",
+    "storage_bucket": "unimercadosv2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:673249287282:android:f567772885223c5c18f6eb",
+        "android_client_info": {
+          "package_name": "com.example.unimercados"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "673249287282-8msha209gcu1leh51spathssddfejcfe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.unimercados",
+            "certificate_hash": "53b7f939d7e8cf41da1dc59872b9e96b04b8961a"
+          }
+        },
+        {
+          "client_id": "673249287282-a4bm9avcr2f0ojcmfqk5fnon4qk15rv8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQhWn35z8Mrtru5kSLeXrGzc2Ec7dHGAM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "673249287282-a4bm9avcr2f0ojcmfqk5fnon4qk15rv8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
