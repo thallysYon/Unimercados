@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
+import android.widget.Toast;
 
 import com.example.unimercados_beta.R;
 import com.example.unimercados_beta.databinding.ActivityEmpresaFormProdutoBinding;
@@ -39,6 +40,23 @@ public class EmpresaFormProdutoActivity extends AppCompatActivity {
         BottomSheetDialog bottomSheetDialog = new BottomSheetDialog(this,R.style.BottomSheetDialog);
 
         bottomSheetDialog.setContentView(sheetBinding.getRoot());
+        bottomSheetDialog.show();
+
+        sheetBinding.btnCamera.setOnClickListener(view -> {
+            Toast.makeText(this, "Camera", Toast.LENGTH_SHORT).show();
+            bottomSheetDialog.dismiss();
+        });
+
+        sheetBinding.btnGaleria.setOnClickListener(view -> {
+            Toast.makeText(this, "Galeria", Toast.LENGTH_SHORT).show();
+            bottomSheetDialog.dismiss();
+        });
+
+        sheetBinding.btnCancelar.setOnClickListener(view -> {
+            Toast.makeText(this, "Cancelar", Toast.LENGTH_SHORT).show();
+            bottomSheetDialog.dismiss();
+        });
+
     }
 
 }
