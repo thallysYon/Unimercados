@@ -28,7 +28,7 @@ public class SplashActivity extends AppCompatActivity {
         setContentView(R.layout.activity_splash);
 
         //deslogar
-        //FirebaseHelper.getAuth().signOut();
+        FirebaseHelper.getAuth().signOut();
 
         new Handler(getMainLooper()).postDelayed(this::verificaAcesso,3000);
 

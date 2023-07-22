@@ -21,7 +21,7 @@
         tools:layout="@layout/fragment_categoria" />
     <fragment
         android:id="@+id/menu_config"
-        android:name="com.example.unimercados_beta.fragment.empresa.LojaConfigFragment"
+        android:name="com.example.unimercados_beta.fragment.empresa.EmpresaConfigFragment"
         android:label="fragment_loja_config"
-        tools:layout="@layout/fragment_loja_config" />
+        tools:layout="@layout/fragment_empresa_config" />
 </navigation>

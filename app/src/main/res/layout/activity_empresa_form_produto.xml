@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activity.empresa.EmpresaFormProdutoActivity">
+    tools:context=".activity.empresa.EmpresaFormProdutoActivity"
+    >
 
     <include
         android:id="@+id/include3"
@@ -52,6 +53,7 @@
                             android:layout_height="match_parent" />
 
                         <ImageView
+                            android:id="@+id/imgFake0"
                             android:layout_width="62dp"
                             android:layout_height="62dp"
                             android:layout_gravity="center"
@@ -73,6 +75,7 @@
                             android:layout_height="match_parent" />
 
                         <ImageView
+                            android:id="@+id/imgFake1"
                             android:layout_width="62dp"
                             android:layout_height="62dp"
                             android:layout_gravity="center"
@@ -94,6 +97,7 @@
                             android:layout_height="match_parent" />
 
                         <ImageView
+                            android:id="@+id/imgFake2"
                             android:layout_width="62dp"
                             android:layout_height="62dp"
                             android:layout_gravity="center"
